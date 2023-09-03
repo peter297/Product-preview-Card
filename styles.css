@@ -72,7 +72,7 @@
         font-family: 'Montserrat', sans-serif;
         color: rgb(6, 102, 6);
         font-size: 25px;
-        font-weight: 900;
+        font-weight: 950;
     }
     
     .old-price{
@@ -103,7 +103,7 @@
 
 
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 400px) {
     
    body{
     background-color: hsl(30, 38%, 92%);
@@ -112,6 +112,7 @@
    .card{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     width: 100%;
     padding: 10px 10px 10px 10px;
     margin: 50px auto;
@@ -140,8 +141,9 @@
 
    .attribution { 
     font-size: 11px; 
-    margin: 320px auto; 
+    margin: 200px 150px; 
     padding-bottom: 50px;
+
    }
 
    .attribution a { 
@@ -149,8 +151,7 @@
     }
 
     button{
-       margin: 20px 30px;
-       justify-content: center;
+       margin: 20px 40px;
        padding: 15px 100px;
     }
 
