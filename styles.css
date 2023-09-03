@@ -5,6 +5,7 @@
 }
  body{
     background-color: hsl(30, 38%, 92%);
+    overflow-x: hidden;
  }
 
  
@@ -110,6 +111,8 @@
 
 @media only screen and (max-width: 375px){
 
+   
+
 
     .card{
         display: flex;
@@ -118,6 +121,7 @@
         height: auto;
         border-bottom: none;
         box-shadow: none;
+        overflow-x: hidden;
 
     }
 
